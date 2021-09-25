@@ -13,7 +13,6 @@ screen.title("Snake Game")
 snake = Snake()
 food = Food()
 score = Score()
-print(snake.head_of_snake.width())
 screen.listen()
 screen.onkey(snake.up, "Up")
 screen.onkey(snake.down, "Down")
@@ -41,4 +40,4 @@ while game_is_on:
 
 
 
-screen.exitonclick()
+
